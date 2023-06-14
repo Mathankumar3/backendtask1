@@ -65,9 +65,11 @@ function App() {
   return (
     <div className="App">
       <div className="cart-value">
-      <Badge bg="Success">
+      <Badge bg="success">
         CART {count}
       </Badge>
+      
+
 
       </div>
       <div className="card-container">
@@ -124,11 +126,6 @@ function Cards({prod,idx,setCount,count}){
       </Card.Body>
     </Card>
 
-
-  
-    
-
-   
 
   )
 }
